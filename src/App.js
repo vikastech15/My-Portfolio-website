@@ -58,13 +58,6 @@ showcase projects and skills"
         deployedProjectLink="https://realtime-quiz-app-mongo-db.vercel.app/"
         projectImg={require('./images/quiz app.png')}
       />
-      <ProjectCard
-        projectTitle="Books On Desk"
-        projectDesc="Our real-time Resource sharing platform, built with ReactJs library, Node.js, HTML, CSS, and JavaScript, offers an interactive and engaging platform for renting, buying and selling various resources like books, research papers and novels"
-        projectLink="https://github.com/vikastech15/realtime-quiz-app-mongoDb"
-        deployedProjectLink="https://book-on-desk.vercel.app/"
-        projectImg={require('./images/quiz app.png')}
-      />
 
       
       <AboutMe id = 'about' />
