@@ -1,0 +1,91 @@
+/* Cube.css */
+.scene {
+    perspective: 800px;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+  }
+  
+  .cube {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    transform-style: preserve-3d;
+    animation: rotate 10s infinite linear;
+    
+  }
+  
+  .face {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background:rgba(255, 255, 255, 0.54);
+    border: 2px solid #161515;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .face img {
+    width: 90%;
+    height: 80%;
+    object-fit: contain;
+    border-radius: 50%;
+    margin-left: 5%;
+  }
+  .cubeDetails{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cubeHeading{
+    color: black;
+  }
+  
+.top{
+  background-color: rgba(0, 0, 0, 0.925);
+}
+.bottom{
+  background-color: rgba(0, 0, 0, 0.925);
+}
+.back{
+  background-color: #2980b9;
+
+}
+.right{
+  background-color: #f39c12;
+  flex-direction: column;
+}
+.rightH2, .rightP{
+color: black;
+}
+.left{
+  background-color: #7f8c8d;
+}
+  /* Logos css
+  .gitLogoImg{
+    height: 100%;
+    width: 20px;
+  } */
+  /* Position each face */
+  .front { transform: rotateY(0deg) translateZ(100px); }
+  .back { transform: rotateY(180deg) translateZ(100px); }
+  .right { transform: rotateY(90deg) translateZ(100px); }
+  .left { transform: rotateY(-90deg) translateZ(100px); }
+  .top { transform: rotateX(90deg) translateZ(100px); }
+  .bottom { transform: rotateX(-90deg) translateZ(100px); }
+  
+  /* Rotation Animation */
+  @keyframes rotate {
+    from {
+      transform: rotateX(0) rotateY(0);
+    }
+    to {
+      transform: rotateX(360deg) rotateY(360deg);
+    }
+  }
+  
