@@ -14,14 +14,14 @@ function App() {
   return (
     <>
     <AnimatedCursor
-      color="#fff"
+      color="black"
       innerSize={8}
       outerSize={50}
       innerScale={1}
       outerScale={2.2}
       outerAlpha={0}
       outerStyle={{
-        background: '#ffffff',
+        background: "black",
         mixBlendMode: 'exclusion'
       }}
       innerStyle={{
@@ -32,7 +32,7 @@ function App() {
       <Navbar />
       <HomeBanner id = "home"/>
        <ProjectCard
-     
+        id = "project"
         projectTitle="Books On Desk"
         projectDesc="Our real-time Resource sharing platform, built with ReactJs library, Node.js, HTML, CSS, and JavaScript, offers an interactive and engaging platform for renting, buying and selling various resources like books, research papers and novels"
         projectLink="https://github.com/vikastech15/realtime-quiz-app-mongoDb"
@@ -40,7 +40,7 @@ function App() {
         projectImg={require('./images/Book.png')}
       />
       <ProjectCard
-        id = "project"
+        
         className = "odd"
         projectTitle="Portfolio Website using React-js"
         projectDesc="Crafted a dynamic and responsive portfolio website with HTML, CSS, JavaScript, and React.js, 
