@@ -21,7 +21,7 @@ function App() {
       outerScale={2.2}
       outerAlpha={0}
       outerStyle={{
-        background: "black",
+        background: "fff",
         mixBlendMode: 'exclusion'
       }}
       innerStyle={{
