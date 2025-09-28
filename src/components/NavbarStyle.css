@@ -137,7 +137,7 @@
         height: 85vh;
         right: -100%;
         transition: 0.5s;
-        background: rgba(255, 255, 255, 0.7); /* transparent white */
+        background: rgba(255, 255, 255, 0.9); /* transparent white */
   backdrop-filter: blur(10px); /* frosted glass effect */
   -webkit-backdrop-filter: blur(10px); /* for Safari */
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
@@ -172,7 +172,9 @@
         justify-content: space-evenly;
         transition: 0.5s;
         z-index: 110;
-        background: rgb(18, 18, 18);
+        background: rgba(255, 255, 255, 0.9); /* transparent white */
+  backdrop-filter: blur(10px); /* frosted glass effect */
+  -webkit-backdrop-filter: blur(10px); /* for Safari */
     }
 
     .header .social-links.active {
